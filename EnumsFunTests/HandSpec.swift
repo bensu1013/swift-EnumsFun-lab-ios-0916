@@ -38,19 +38,19 @@ class HandSpec: QuickSpec {
             }
 
             describe("flip") {
-                it("returns a card if one exists in the hand") {
-                    let card = hand.flip()
-                    expect(card).to(beTruthy())
-                }
-
-                it("returns nil if the hand is empty") {
-                    let card1 = hand.flip()
-                    let card2 = hand.flip()
-                    let card3 = hand.flip()
-                    expect(card1).to(beTruthy())
-                    expect(card2).to(beTruthy())
-                    expect(card3).to(beNil())
-                }
+//                it("returns a card if one exists in the hand") {
+//                    let card = hand.flip()
+//                    expect(card).to(beTruthy())
+//                }
+//
+//                it("returns nil if the hand is empty") {
+//                    let card1 = hand.flip()
+//                    let card2 = hand.flip()
+//                    let card3 = hand.flip()
+//                    expect(card1).to(beTruthy())
+//                    expect(card2).to(beTruthy())
+//                    expect(card3).to(beNil())
+//                }
 
                 it("removes cards from the hand") {
                     var _ = hand.flip()
